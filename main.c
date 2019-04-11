@@ -1,6 +1,14 @@
 #include <stdio.h>
 
-//char task1(messageText, );
+/*
+ * char task1(messageText, );
+ * char task2();
+ * char task3();
+ * char task4();
+ * char task5();
+ * char task6();
+ */
+
 
 int main() 
 {
@@ -20,19 +28,40 @@ int main()
     switch(chosenTask)
     {
         case 1:
+            printf("Task 1 output");
             break;
         case 2:
+            printf("Task 2 output");
             break;
         case 3:
+            printf("Task 3 output");
             break;
         case 4:
+            printf("Task 4 output");
             break;
         case 5:
+            printf("Task 5 output");
             break;
         case 6:
+            printf("Task 6 output");
             break;
         default:
             printf("Invalid task\n\nTask number must be between 1 and 6");
     }
     return 0;
 }
+
+/*
+ *char task1()
+ * 
+ *char task2()
+ *
+ *char task3()
+ *
+ *char task4()
+ *
+ *char task5()
+ *
+ *char task6()
+ *
+ */
